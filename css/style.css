@@ -1,0 +1,264 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+body{
+    background-color: black;
+}
+header img{
+    width: 100px;
+    height: 100px;
+}
+
+.carrousel{
+    width: 40%;
+    margin-left: 350px;
+}
+
+.relleno-1{
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 1px;
+    margin-top: 20px;
+    margin-inline: 10px;
+}
+
+header .container-fluid ul li a{
+    transition: 1s;
+}
+
+header .container-fluid ul li a:hover{
+    background-color: white;
+    margin:15px;
+
+}
+    
+.color-fondo-nav{
+    background-color:rgb(60, 93, 240)  ;
+}
+
+.texto-amarillo{
+    color: blue !important;
+}
+
+.color-amarillo{
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+header section img{
+    width: 50%;   
+    height: 50%;
+    margin-left: 200px;
+    margin-bottom: 50px;
+ }
+
+ .container{
+    width: 50%;   
+    height: 50%;
+    margin-left: 200px;
+    margin-bottom: 50px;
+ }
+
+
+.card-title-1{
+    color: red;
+    font-weight: bold;
+}
+
+.card-text-1{
+    font-weight: bold;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h1:active{
+    color: gray;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.titulo-1{
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-2{
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.titulo-2 a img{
+    align-items: center;
+}
+
+.text-2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+   
+.container-enlaces img{
+    width: 40%;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.container-enlaces img:hover{
+    border: 5px inset yellow
+}
+    
+form{
+    margin-top: 40px;
+    display:inline-block;
+    justify-content: space-between;
+    width: 20%;
+    height: 100%;
+    
+}
+
+form label{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form input{
+    border: 0px;
+    border-radius: 5px;  
+}
+
+form input:hover{
+    background-color: gray;
+}
+
+.mas-espacio{
+    padding:30px
+}
+
+.container-form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
+
+button{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #76AEED;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+
+.boton-1:hover{
+    background-color: blue;
+    }
+.imagen-trabajo-1{
+        background-color: red;
+    }
+
+
+form input:hover{
+    border: 2px inset yellow;
+}
+
+.foto-logo{
+    float: right;
+    margin-right: 200px;
+    
+    
+}
+
+.foto-logo:hover{
+    border: 1px inset yellow
+
+
+}
+
+
+.borde{
+    border-bottom: 1px solid gray;
+            
+}
+
+.borde-2{
+    border-bottom: 1px solid gray;
+   
+}
+
+.borde-3{
+    border-bottom: 1px solid gray;
+    padding-bottom: 100px;
+}
+
+
+ 
+
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+
+
+    .borde{
+        display: none;
+    }
+
+   .carrousel {
+        display: none;
+    }
+        }
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+
+
+    .foto-logo{
+        display: none;
+    }
+
+    .container-form{
+        display: block;
+    }
+     }
+
+.imagen-nosotros{
+    background-image: url(../img/Nuestros\ servicios.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 300px;
+    margin-left: 500px;
+      
+}
+
+.imagen-nosotros:hover{
+    background-image: url(../img/Inspirador.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 300px;
+    margin-left: 500px;
+    transition: 2s;
+}
