@@ -35,6 +35,11 @@ header .container-fluid ul li a:hover{
     margin:15px;
 
 }
+
+header nav ul{
+    width: 100%;
+    justify-content: center;
+}
     
 .color-fondo-nav{
     background-color:rgb(60, 93, 240)  ;
@@ -215,6 +220,7 @@ form input:hover{
     border-bottom: 1px solid gray;
     padding-bottom: 100px;
 }
+
 
 
  
