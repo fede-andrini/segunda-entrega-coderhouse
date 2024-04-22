@@ -1,0 +1,70 @@
+header{
+    .relleno-1{
+        background-color: yellow;
+        border-radius: 5px;
+        padding: 1px;
+        margin-top: 20px;
+        margin-inline: 10px;
+    }
+
+    .color-fondo-nav{
+        background-color:rgb(60, 93, 240)  ;
+    }
+
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .texto-azul{
+        color: blue !important;
+    }
+    
+    .color-amarillo{
+        background-color: yellow;
+        border-radius: 5px;
+    }
+    
+    nav ul{
+        width: 100%;
+        justify-content: center;
+    }
+
+  
+    .container-fluid ul li a{
+        transition: 1s;
+    }
+
+    .container-fluid ul li a:hover{
+        background-color: white;
+        margin:15px;
+    
+    }
+
+
+    @keyframes moverElemento {
+        0%{
+            transform: translateX(100px);
+        }
+    
+        50%{
+            transform: translateX(150px);
+        } 
+    
+        100%{
+            transform: translateX(100px);
+        }
+    }
+    
+    .molde{
+    
+        animation-name: moverElemento;
+        animation-iteration-count: infinite;
+        animation-timing-function:linear ;
+        animation-duration: 1s;
+    
+    }
+    
+    
+
+}

@@ -1,0 +1,26 @@
+/*RESET*/
+@import "./base/reset.scss";
+
+
+/*IMPORT LAYOUT*/
+@import "./layout/header-index";
+@import "./layout/portada-index";
+@import "./layout/card-container";
+@import "./layout/footer-index.scss";
+@import "./layout/nosotros";
+@import "./layout/trabajos";
+@import "./layout/contacto-index";
+
+/*COMPONENTS*/
+@import "./components/cards";
+
+/*MEDIA*/
+@import "./medias-queries/media-mobile.scss";
+@import "./medias-queries/media-tablet.scss"; 
+@import "./medias-queries/media-desktop.scss"; 
+
+
+
+/*UTILITIES*/
+@import "./utilities/mixins.scss";
+

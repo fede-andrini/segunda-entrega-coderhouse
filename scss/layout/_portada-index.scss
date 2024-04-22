@@ -1,0 +1,35 @@
+//VARIABLE//
+$color-rojo: red;
+
+
+main{
+    
+   h1{
+        color: $color-rojo;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        border-bottom: 1px solid gray;
+    }
+
+    h1:active{
+     color: gray;
+    }
+    
+   
+
+    .carrousel{
+     width: 50%;
+     margin-left: 300px;
+     margin-top: 15px;
+     border: 10px solid gray;
+     border-radius: 5px;
+    }
+
+   
+
+    
+
+    
+
+}

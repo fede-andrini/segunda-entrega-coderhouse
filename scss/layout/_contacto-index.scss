@@ -1,0 +1,72 @@
+form{
+    margin-top: 40px;
+    display:inline-block;
+    justify-content: space-between;
+    width: 20%;
+    height: 100%;
+    
+}
+
+form label{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form input{
+    border: 0px;
+    border-radius: 5px;  
+}
+
+form input:hover{
+    background-color: gray;
+}
+
+.mas-espacio{
+    padding:30px
+}
+
+.container-form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+button{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #76AEED;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+
+.boton-1:hover{
+    background-color: blue;
+    }
+.imagen-trabajo-1{
+        background-color: red;
+    }
+
+
+form input:hover{
+    border: 2px inset yellow;
+}
+
+.foto-logo{
+    float: right;
+    margin-right: 200px;
+    
+    
+}
+
+.foto-logo:hover{
+    border: 1px inset yellow
+
+
+}

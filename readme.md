@@ -1,1 +1,1 @@
-Segunda entrega del proyecto de Coderhouse
+"Tercera entrega, con el cambio de css a sass"
