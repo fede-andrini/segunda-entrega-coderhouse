@@ -1,23 +1,27 @@
 header{
+
+        background-color: blue;
+        background-image: url(../img/foto-fondo.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
     .relleno-1{
         background-color: yellow;
         border-radius: 5px;
         padding: 1px;
         margin-top: 20px;
         margin-inline: 10px;
+        display: inline-block;
     }
 
-    .color-fondo-nav{
-        background-color:rgb(60, 93, 240)  ;
-    }
-
+    
     img{
         width: 100px;
         height: 100px;
     }
     
     .texto-azul{
-        color: blue !important;
+        color: blue ;
     }
     
     .color-amarillo{
@@ -64,7 +68,8 @@ header{
         animation-duration: 1s;
     
     }
-    
+
+
     
 
 }

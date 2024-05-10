@@ -6,11 +6,55 @@
 }
 
 .container-general{
-    display:block;
+    display:flex;
+         
     
+}
+
+.card-container{
+    width: 100%;
+    height: auto;   
+}
+
+header .molde{
+    animation-duration: 0s;
+
+}
+
+header .relleno-1{
+    background-color:transparent;
+    margin-inline-start: 0%;
+    color: white;
+    
+}
+
+p{
+    text-align: center; 
+}
+
+.video-senuelo{
+    display: none;
+}
+
+.container-enlaces img{
+    width: 60%;
+}
+
+.imagen-nosotros{
+    display: none;
+    
+}
+
+form{
+    width: 70%;
+
+}
+
+.foto-logo{
+    display: none;
+}
+
 
 }
 
 
-
-}
